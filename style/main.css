@@ -1,0 +1,13 @@
+body {
+    background-color: #a8d6e0;
+}
+
+
+#mainContainer {
+    height: 760px;
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../assets/MainBackground.png);
+    position: relative;
+}
