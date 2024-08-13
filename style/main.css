@@ -1,13 +1,29 @@
 body {
-    background-color: #a8d6e0;
+    background-image: url("../assets/bg-body.gif");
 }
 
-
-#mainContainer {
-    height: 760px;
-    width: 1024px;
+.container {
+    width: 920px;
     margin-right: auto;
     margin-left: auto;
-    background-image: url(../assets/MainBackground.png);
+
+    background-color: whitesmoke;
     position: relative;
+}
+
+#title {
+    text-align: center;
+    font-size: 64px;
+
+    padding: 16px;
+}
+
+#mainContainer {
+    height: 704px;
+}
+
+#mainText {
+    font-size: 32px;
+    white-space: pre-line;
+    padding: 8px;
 }
