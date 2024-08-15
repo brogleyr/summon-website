@@ -1,5 +1,5 @@
 body {
-    background-image: url("../assets/bg-body.gif");
+    background-image: url("../../assets/bg-body.gif");
 }
 
 .container {
@@ -26,4 +26,11 @@ body {
     font-size: 32px;
     white-space: pre-line;
     padding: 8px;
+}
+
+
+#questionIcon {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
 }
