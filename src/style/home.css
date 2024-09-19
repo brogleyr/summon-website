@@ -1,0 +1,27 @@
+/* CSS for landing page */
+
+body {
+    background-color: #22272f;
+}
+
+* {
+    color: #dcd5cb;
+    text-align: center;
+    font-family: sans-serif
+}
+
+#title {
+    font-family: Impact, sans-serif;
+    font-size: 128px;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+#enterLink {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#enterContainer {
+    margin-top: -8px;
+}
