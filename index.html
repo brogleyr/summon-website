@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Website</title>
-		<link href="src/style/home.css" rel="stylesheet" type="text/css">
+		<link href="src/style/landing.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <h1 id="title">WEBSITE</h1>
@@ -15,10 +15,12 @@
       <br />
       Do you still choose to<br \>
       <div id="enterContainer">
-        <a id="enterLink" href="./whatisthis.html">
+        <a id="enterLink" onclick="loadScreen('src/content/portal.html')">
           Enter?
         </a>
       </div>
     </p>
+    <div id="loadingDiv"></div>
+    <script src="src/scripts/loadingScreen.js"></script>
   </body>
 </html>

@@ -1,0 +1,13 @@
+/* CSS for landing page */
+
+body {
+    background-color: #dcd5cb;
+}
+
+* {
+    color: #22272f;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.8mm;
+}
