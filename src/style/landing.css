@@ -1,4 +1,4 @@
-/* CSS for landing page */
+/* Style for landing page */
 
 body {
     background-color: #22272f;
@@ -35,5 +35,4 @@ body {
     height:0px;
     top:0px;
     left:0px;
-    z-index:1000;
 }
