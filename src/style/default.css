@@ -5,15 +5,41 @@ body {
 }
 
 * {
-    color: #22272f;
     text-align: left;
+
+    color: #22272f;
     font-family: sans-serif;
     font-size: 24px;
     letter-spacing: 0.8mm;
 }
 
-div {
-    background-color: white;
-    border-style: solid;
-    border-width: 1px;
+#headerDiv {
+    /* TODO: Replace this with a span when animating */
+    border-bottom: 4px solid #726d67;
+}
+
+#headerTitle {
+    color: #22272f;
+    font-family: serif;
+    font-size: 80px;
+    letter-spacing: 0px;
+
+    margin-bottom: 0px;
+}
+
+#pageDiv {
+    display: flex;
+}
+
+#sidebarDiv {
+    width: 360px;
+    border-right: 3px solid #726d67
+}
+
+li {
+    color: #595450;
+}
+
+#contentDiv {
+    width: 100%;
 }
