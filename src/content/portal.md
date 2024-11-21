@@ -7,3 +7,5 @@ It glows with energy. Silently, it asks
 [Images of the past](images.html)
 
 [The creator](me.html)
+
+[A notebook](notebook.html)
