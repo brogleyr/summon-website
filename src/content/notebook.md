@@ -3,13 +3,13 @@
 
 ### First Off...
 
-Hello. Welcome to the notebook. I intend to records status and development of my craft here.
+Hello. Welcome to the notebook. I intend to record the status and development of my craft here.
 
 ### On the creation of new pages
 
 Crafting a website from scratch has proven arduous. I've thus written a script that will create a new page for the website in one command, wholly formed.
 
-I wrote my script in Python using the Beautiful Soup library, which allows me to easily reference and modify the contents of html trees. I constructed a template html for a simple webpage that references a markdown file for it's content (like this one).  The python script opens the template, replaces a few values based on the name of the page, and creates a new html file.
+I wrote my script in Python using the Beautiful Soup library, which allows me to easily reference and modify the contents of html trees. The python script opens an html template, replaces a few values based on the name of the page, and creates a new html file.
 
 - [The Script](http://summon.website/new_markdown_page.py)
 - [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/#)
