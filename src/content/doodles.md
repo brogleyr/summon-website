@@ -17,7 +17,7 @@ A 3D fractal, not too dissimilar from the Mandelbrot set. Shown as a point cloud
 ![](../../assets/Doodles/ray_march.png)
 
 #### Traveling Salesman
-A brute force solution to the [traveling salesman problem.](https://en.wikipedia.org/wiki/Travelling_salesman_problem) What is the shortest distance between all of these points? By checking the distance of every possible route, we can know for sure! I want to look into other ways of solving routing problems, particularly [A*](https://en.wikipedia.org/wiki/A*_search_algorithm). This also started as a follow-along to this [Sebastian Lague video](https://youtu.be/X-iSQQgOd1A?si=Y0BvPVPOWGXGCbmh) on slime molds.
+A brute force solution to the [traveling salesman problem.](https://en.wikipedia.org/wiki/Travelling_salesman_problem) What is the shortest distance between all of these points? By checking the distance of every possible route, we can know for sure! I want to look into other ways of solving routing problems, particularly [A*](https://en.wikipedia.org/wiki/A*_search_algorithm). This started as a follow-along to a [Sebastian Lague video](https://youtu.be/X-iSQQgOd1A?si=Y0BvPVPOWGXGCbmh) on slime molds.
 
 ![](../../assets/Doodles/travelling_salesman.gif)
 

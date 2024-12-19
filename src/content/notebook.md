@@ -1,3 +1,9 @@
+## 12/18/24
+### Added a doodles page
+[Seen here!](doodles.html) A collection of small projects I've used to get used to data-visualization tools. All are made with Java's Processing library right now, but I also have a few projects made in Pico-8 and Unity that I would like to upload.
+
+### Reengaging
+I'm taking things lightly until the end of the year, but I've been feeling the creative bug recently. Fun new projects to come, as well as the trickle of uploads from my backlog.
 
 ## 11/20/24
 
