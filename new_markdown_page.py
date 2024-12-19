@@ -1,8 +1,13 @@
+import argparse
 from pathlib import Path
 from bs4 import BeautifulSoup
 
-new_page_title = "notebook"
-new_page_filename = "notebook"
+parser = argparse.ArgumentParser()
+parser.add_argument('title', type=str)
+args = parser.parse_args()
+
+new_page_title = args.title
+new_page_filename = args.title
 html_filename = new_page_filename + '.html'
 markdown_filename = new_page_filename + '.md'
 
@@ -19,3 +24,6 @@ markdown_page['src'] = markdown_filename
 
 html_filepath = Path('src/content/' + html_filename)
 html_filepath.write_text(page_soup.prettify())
+
+markdown_filepath = Path('src/content/' + markdown_filename)
+markdown_filepath.touch()
