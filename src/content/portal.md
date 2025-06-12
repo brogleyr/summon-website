@@ -1,13 +1,13 @@
 # You are faced with a portal.
 
-It glows with energy. Silently, it asks 
+It glows and asks... 
 
 ### What do you seek?
 
-[Images of the past](images.html)
+[an introduction](me.html)
 
-[Visual digital math](doodles.html)
+[on sorcery](sorcery.html)
 
-[The creator](me.html)
+[a log](notebook.html)
 
-[A notebook](notebook.html)
+[doodles](doodles.html)
