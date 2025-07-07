@@ -1,7 +1,7 @@
 /* Style for standard content pages */
 
 body {
-    background-color: #dcd5cb;
+    background-color: hsl(217, 40%, 30%);
 }
 
 * {
@@ -14,8 +14,11 @@ body {
 }
 
 #headerDiv {
+    width: 50%;
+    margin: auto;
+    background-color: hsl(217, 50%, 70%);
     /* TODO: Replace this with a span when animating */
-    border-bottom: 4px solid #726d67;
+    /* border-bottom: 4px solid #726d67; */
 }
 
 #headerTitle {
@@ -33,14 +36,15 @@ body {
 
 #sidebarDiv {
     width: 360px;
-    border-right: 3px solid #726d67
+    /* border-right: 3px solid #726d67 */
 }
 
 li {
-    color: #595450;
+    color: hsl(60, 50%, 70%);
 }
 
 #contentDiv {
+    background-color: hsl(217, 40%, 85%);
     width: 100%;
 }
 
