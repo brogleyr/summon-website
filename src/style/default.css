@@ -1,7 +1,9 @@
 /* Style for standard content pages */
 
 body {
-    background-color: #dcd5cb;
+    background-image: url("../../assets/utena-columns.png");
+    background-size: 20%;
+    /* background-color: hsl(217, 40%, 30%); */
 }
 
 * {
@@ -13,37 +15,37 @@ body {
     letter-spacing: 0.8mm;
 }
 
+#pageDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    width: auto;
+    margin: auto;
+}
+
 #headerDiv {
-    /* TODO: Replace this with a span when animating */
-    border-bottom: 4px solid #726d67;
+    width: 100%;
+    border: 3px ridge #000000;
+    background-color: hsl(217, 20%, 10%);
+    margin-bottom: 10px
+        /* TODO: Replace this with a span when animating */
+        /* border-bottom: 4px solid #726d67; */
 }
 
 #headerTitle {
-    color: #22272f;
+    color: hsl(217, 20%, 80%);;
     font-family: serif;
     font-size: 80px;
-    letter-spacing: 0px;
-
-    margin-bottom: 0px;
-}
-
-#pageDiv {
-    display: flex;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 #sidebarDiv {
     width: 360px;
-    border-right: 3px solid #726d67
-}
-
-li {
-    color: #595450;
+    /* border-right: 3px solid #726d67 */
 }
 
 #contentDiv {
-    width: 100%;
-}
-
-zero-md {
-    background-color: #dcd5cb;
+    background-color: hsl(217, 34%, 82%);
+    border: 2px solid black;
 }

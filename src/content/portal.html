@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>website</title>
-        <link href="../style/default.css" rel="stylesheet" type="text/css">
-        <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>website</title>
+    <link href="../style/default.css" rel="stylesheet" type="text/css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+</head>
+
+<body>
+    <div id="backgroundDiv">
+        <!-- <svg>
+            <line x1='0' y1='100%' x2='100%' y2='0' />
+            <line x1='0' y1='90%' x2='100%' y2="10%" />
+            <line x1='0' y1='80%' x2='100%' y2="20%" />
+            <line x1='0' y1='70%' x2='100%' y2="30%" />
+            <line x1='0' y1='60%' x2='100%' y2="40%" />
+            <line x1='0' y1='50%' x2='100%' y2='50%' />
+            <line x1='0' y1='40%' x2='100%' y2="60%" />
+            <line x1='0' y1='30%' x2='100%' y2="70%" />
+            <line x1='0' y1='20%' x2='100%' y2="80%" />
+            <line x1='0' y1='10%' x2='100%' y2="90%" />
+            <line x1='0' y1='0' x2='100%' y2='100%' />
+            
+        </svg> -->
+    </div>
+    <div id="pageDiv">
         <div id="headerDiv">
             <h1 id="headerTitle">Portal</h1>
         </div>
-        <div id="pageDiv">
-            <div id="sidebarDiv">
-                <ul id="sidebarList">
-                    <li>error</li>
-                    <li>is</li>
-                    <li>boundless</li>
-                    <li>nor</li>
-                    <li>hope</li>
-                    <li>nor</li>
-                    <li>doubt</li>
-                </ul>
-            </div>
-            <div id="contentDiv">
-                <zero-md src="portal.md">
-                    <template>
-                        <link rel="stylesheet" href="../style/markdown.css" />
-                    </template>
-                </zero-md>
-            </div>
+        <div id="contentDiv">
+            <zero-md src="portal.md">
+                <template>
+                    <link rel="stylesheet" href="../style/markdown.css" />
+                </template>
+            </zero-md>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
